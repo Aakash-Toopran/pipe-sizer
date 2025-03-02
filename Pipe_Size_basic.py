@@ -14,7 +14,7 @@ def load_json_data(file_path):
         data = json.load(file)
     return data
 
-json_data = load_json_data('Pipe_Size\data\data.json')
+json_data = load_json_data('pipe_sizer\data\data.json')
 
 pipelIB = json_data['pipe_sizes_lib']
 
